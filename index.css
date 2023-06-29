@@ -1,0 +1,88 @@
+body{
+    margin: 50px; 
+}
+.ProgressBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: rgb(223, 238, 238);
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 2rem;   
+
+}
+
+.ProgressBar::before{
+    content: " ";
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    background-color: rgb(241, 227, 227);
+}
+.countdown{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 40px;
+    left: 30px;
+    
+}
+.buttons{
+    height: 60px;
+    width: 16rem;
+    position: relative;
+}
+
+.add{
+    position: absolute;
+    left: 0px;
+    padding: 4px;
+    height: 30px;
+    width: 70px;
+    border-radius: 8px 8px 8px 8px;
+}
+.stop{
+    position: absolute;
+    right: 0px;
+    padding: 4px 6px 4px 6px;
+    height: 30px;
+    width: 70px;
+    border-radius: 8px 8px 8px 8px;  
+}
+.box{
+    height: 120px;
+    width: 16rem;
+    background-color:   rgb(241, 227, 227);
+    padding: 6px;
+    position: relative;
+    border-radius: 8px 8px 8px 8px;  
+}
+.div1{
+    position: absolute;
+    top: 10px;
+}
+.div2{
+    position: absolute;
+    bottom: 40px;
+
+}
+.div3{
+    position: absolute;
+    bottom: 20px;
+ 
+}
+.div4{
+    position: absolute;
+    bottom: 20px;
+    right: 20px
+}
+.h2{
+    margin-left: 30px;
+}
+.h4{
+    margin-left: 70px;
+}
